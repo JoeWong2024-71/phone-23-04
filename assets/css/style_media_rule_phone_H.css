@@ -1,0 +1,128 @@
+  /*phone_H*/
+  @media screen and (max-width: 1000px) {
+    div.re-size {
+      background-color: blue;
+      margin: 1px;
+      padding: 4px;
+      }
+      
+      .text-block_banner_01 {
+        position: relative;
+        font-family:Impact,;
+        top: -51vw;
+        left: 5vw;
+        color: rgb(0, 255, 229);
+        font-size: 4mm;
+      }
+    
+        .text-block_banner_02 {
+          position: relative;
+          font-family:Impact,;
+          top: -52.5vw;
+          left: 8vw;
+          color: rgb(0, 255, 229);
+          font-size: 4mm;
+        }    
+    
+          .text-block_banner_03_en {
+            position: relative;
+            font-family:Impact,;
+            top: -54vw;
+            left: 10vw;
+            color: rgb(0, 255, 229);
+            font-size: 4mm;
+          }  
+       
+            .text-block_select_language {
+              position: relative;
+              top: -65vw;
+              left: 60vw;                    
+              font-size: 5mm;  
+            }   
+  
+              .text-block_english_button {
+                position: relative;
+                top: -67vw;
+                left: 67vw;                   
+                font-size: 5mm;  
+              }
+  
+                .text-block_chinese_button {
+                  position: relative;
+                  top: -69vw;
+                  left: 69vw;                    
+                  font-size: 5mm;  
+                } 
+                      
+                  .text-block_goto_playlist {
+                    position: relative;
+                    top: -100vw;
+                    left: 70vw;                    
+                  }  
+                  
+                  .text-block_goto_message {
+                    position: relative;
+                    top: -55vw;
+                    left: 10vw;
+                  }
+                              
+                  /*-----------------------------------------------*/  
+                              /* Slideshow container */
+                              .slideshow-container-Text {
+                                width: auto;                              
+                                }
+                              
+                              /* Caption text */
+                              .text {                              
+                                font-size: 6mm;                 
+                                text-align:left;                                
+                                }                                  
+                              
+                              .active {
+                                background-color: #378b49;
+                              }
+                              
+                              /* Fading animation */
+                              .fade {
+                                animation-name: fade;
+                                animation-duration: 2s;
+                              }
+                              
+                              @keyframes fade {
+                                from {opacity:0.5} 
+                                to {opacity:1}
+                              }
+
+  /*-----------------------------------------------*/  
+  /*Select Demo videa grid container*/                              
+  .text-block_demo_text {
+    position: relative;
+    top: -18vw;
+    left: 30vw;
+            }
+
+  .text-block_demo_number {
+    position: relative;
+    width: 80mm;
+    height: auto;
+    top: -22vw;
+    left: 30vw;
+            }
+
+        .item1 {grid-area: 01;}          
+
+        .grid-container {
+            display: grid;
+            grid-template-areas: '01 01 01 01 01 01 01 01 01';
+            gap: 2px;
+            margin: 1px;
+            padding: 1px;
+            height: 9mm;
+        }
+
+        .grid-container > div {                
+            text-align: center;               
+            font-size: 4mm;                
+        }    
+  /*-----------------------------------------------*/     
+} 
